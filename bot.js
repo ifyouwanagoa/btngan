@@ -17,27 +17,27 @@ client.on('message', message => {
       .setDescription(`
 🕴_____ 🖤😎 - BotEpic - 😎🖤  _____🕴
 
-🖤(-dc ⟿⟿⟿ Delete all channels)🖤
-🖤(-dr ⟿⟿⟿⟿ Delete all roles)🖤
-🖤(-serooms ⟿⟿⟿⟿ Create rooms)🖤
-🖤(-seroles ⟿⟿⟿⟿ Create roles)🖤
-🖤(-bc ⟿⟿⟿ Brodcast all member)🖤
-🖤(-call ⟿⟿ Contact with admin)🖤
-🖤(-report ⟿⟿⟿ Report a member)🖤
-🖤(-vk ⟿⟿⟿⟿⟿ Kick from voice)🖤
-🖤(-kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
-🖤(-ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
-🖤(-role all ⟿⟿⟿⟿⟿ From All)🖤
-🖤(-role humans ⟿ From All Humans)🖤
-🖤(-role bots ⟿⟿⟿ From All Bots)🖤
-🖤(-clear ⟿⟿⟿⟿ Delete all chat)🖤
-🖤(-mvall ⟿ Move all to you voice)🖤
-🖤(-hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel)🖤
-🖤(-sc ⟿⟿⟿⟿⟿⟿⟿ Show channel)🖤
-🖤(-mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel)🖤
-🖤(-unmc ⟿⟿⟿⟿⟿ Unmute channel)🖤
-🖤(-mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
-🖤(-unmute ⟿⟿⟿⟿ Unmute member)🖤
+🖤(#dc ⟿⟿⟿ Delete all channels)🖤
+🖤(#dr ⟿⟿⟿⟿ Delete all roles)🖤
+🖤(#serooms ⟿⟿⟿⟿ Create rooms)🖤
+🖤(#seroles ⟿⟿⟿⟿ Create roles)🖤
+🖤(#bc ⟿⟿⟿ Brodcast all member)🖤
+🖤(#call ⟿⟿ Contact with admin)🖤
+🖤(#report ⟿⟿⟿ Report a member)🖤
+🖤(#vk ⟿⟿⟿⟿⟿ Kick from voice)🖤
+🖤(#kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
+🖤(#ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
+🖤(#role all ⟿⟿⟿⟿⟿ From All)🖤
+🖤(#role humans ⟿ From All Humans)🖤
+🖤(#role bots ⟿⟿⟿ From All Bots)🖤
+🖤(#clear ⟿⟿⟿⟿ Delete all chat)🖤
+🖤(#mvall ⟿ Move all to you voice)🖤
+🖤(#hc ⟿⟿⟿⟿⟿⟿⟿ Hide channel)🖤
+🖤(#sc ⟿⟿⟿⟿⟿⟿⟿ Show channel)🖤
+🖤(#mc ⟿⟿⟿⟿⟿⟿⟿ Mute channel)🖤
+🖤(#unmc ⟿⟿⟿⟿⟿ Unmute channel)🖤
+🖤(#mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
+🖤(#unmute ⟿⟿⟿⟿ Unmute member)🖤
 
 🕴_____ 🖤😎 - BotEpic - 😎🖤  _____🕴
 
