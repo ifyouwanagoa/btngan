@@ -94,7 +94,46 @@ var prefix = "#";
 
               }).then(() => {
                   message.reply("**__تم اظهار الشات__✅**")
- }
+              });
+    }
+       
+});
+
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '527486937162973204').setName("♥W");
+client.channels.find('id', '527486937162973204').setName("♥We");
+client.channels.find('id', '527486937162973204').setName("♥Wel");
+client.channels.find('id', '527486937162973204').setName("♥Welc");
+client.channels.find('id', '527486937162973204').setName("♥Welco");
+client.channels.find('id', '527486937162973204').setName("♥Welcom");
+client.channels.find('id', '527486937162973204').setName("♥Welcome");
+client.channels.find('id', '527486937162973204').setName("♥Welcome♥");
+  }, 3000);
+});
+
+client.on('message', message => {
+  let anything = [
+    "وعليكم السلام",
+    "ياهلا والله",
+    "وعليكم السلام ورحمة الله وبركاته",
+    "مرحبا بك في السيرفر"
+    
+    
+  ]
+  if(message.content === 'السلام عليكم'){
+    message.reply(`${anything[Math.floor(Math.random() * anything.length)]}`)
+    
+    return;
+  }
+});
+
+client.on("ready", () => { // كود رينبو
+  function lol() {
+    client.guilds.get('526505018682114057').roles.find("name", "Color").setColor("RANDOM");
+  };
+  setInterval(lol, 5000);
+  }
 });
 
 
