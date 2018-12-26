@@ -112,21 +112,7 @@ client.channels.find('id', '527486937162973204').setName("♥Welcome♥");
   }, 3000);
 });
 
-client.on('message', message => {
-  let anything = [
-    "وعليكم السلام",
-    "ياهلا والله",
-    "وعليكم السلام ورحمة الله وبركاته",
-    "مرحبا بك في السيرفر"
-    
-    
-  ]
-  if(message.content === 'السلام عليكم'){
-    message.reply(`${anything[Math.floor(Math.random() * anything.length)]}`)
-    
-    return;
-  }
-});
+
 
 client.on("ready", () => { // كود رينبو
   function lol() {
