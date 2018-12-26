@@ -15,7 +15,7 @@ client.on('message', message => {
   let embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setDescription(`
-🕴_____ 🖤😎 - ＰＲＥＭＩＵＭ ＮＯＶＡ - 😎🖤  _____🕴
+🕴_____ 🖤😎 - BotEpic - 😎🖤  _____🕴
 
 🖤(-dc ⟿⟿⟿ Delete all channels)🖤
 🖤(-dr ⟿⟿⟿⟿ Delete all roles)🖤
@@ -39,7 +39,7 @@ client.on('message', message => {
 🖤(-mute ⟿⟿⟿⟿⟿⟿ Mute member)🖤
 🖤(-unmute ⟿⟿⟿⟿ Unmute member)🖤
 
-🕴_____ 🖤😎 - ＰＲＥＭＩＵＭ ＮＯＶＡ - 😎🖤  _____🕴
+🕴_____ 🖤😎 - BotEpic - 😎🖤  _____🕴
 
  `)
    message.channel.sendEmbed(embed)
@@ -58,13 +58,13 @@ client.on('message', message => {
 
 	    
 	    
-	message.guild.createChannel('Owner', 'voice')
-     message.guild.createChannel('Public ❤', 'voice')
-     message.guild.createChannel('Public ✿', 'voice')
-     message.guild.createChannel('Public ★', 'voice')
-     message.guild.createChannel('✲-bot', 'text')
+	
+     message.guild.createChannel('Talk₁', 'voice')
+     message.guild.createChannel('Talk₂', 'voice')
+     message.guild.createChannel('Talk₃', 'voice')
+     message.guild.createChannel('Chatting', 'text')
 
-     message.guild.createChannel('✲-great-chat', 'text')
+     message.guild.createChannel('✲Bot-Commands', 'text')
 
 
 message.channel.sendMessage('الرجاء الانتظار ريث ما يتم صناعة السيرفر')
