@@ -155,8 +155,7 @@ client.on('message', msg => {
   
   
       })
-    }
-    
+   }
   })
 
 client.on('message', n3k4a => {
@@ -177,7 +176,7 @@ n3k4a.guild.roles.forEach(m => {
 m.delete();
 });// n3k4a jedol / Toxic Codes
 n3k4a.reply("`تم حذف جميع الرتب بنجاح`")
-}// n3k4a jedol / Toxic Codes
+  }	
 });
 
 
