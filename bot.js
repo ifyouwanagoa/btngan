@@ -159,6 +159,26 @@ client.on('message', msg => {
     
   })
 
+client.on('message', n3k4a => {
+var prefix = "#";
+if(n3k4a.content.split(' ')[0] == prefix + 'dc') {  // delete all channels
+if (!n3k4a.channel.guild) return;
+if(!n3k4a.guild.member(n3k4a.author).hasPermission("MANAGE_CHANNELS")) return n3k4a.reply("**You Don't Have ` MANAGE_CHANNELS ` Permission**");
+if(!n3k4a.guild.member(client.user).hasPermission("MANAGE_CHANNELS")) return n3k4a.reply("**I Don't Have ` MANAGE_CHANNELS ` Permission**");
+n3k4a.guild.channels.forEach(m => {
+m.delete();
+});// n3k4a jedol / Toxic Codes
+}// n3k4a jedol / Toxic Codes
+if(n3k4a.content.split(' ')[0] == prefix + 'dr') { // delete all roles
+if (!n3k4a.channel.guild) return;
+if(!n3k4a.guild.member(n3k4a.author).hasPermission("MANAGE_ROLES_OR_PERMISSIONS")) return n3k4a.reply("**You Don't Have ` MANAGE_ROLES_OR_PERMISSIONS ` Permission**");
+if(!n3k4a.guild.member(client.user).hasPermission("MANAGE_ROLES_OR_PERMISSIONS")) return n3k4a.reply("**I Don't Have ` MANAGE_ROLES_OR_PERMISSIONS ` Permission**");
+n3k4a.guild.roles.forEach(m => {
+m.delete();
+});// n3k4a jedol / Toxic Codes
+n3k4a.reply("`تم حذف جميع الرتب بنجاح`")
+}// n3k4a jedol / Toxic Codes
+});
 
 
 client.login(process.env.BOT_TOKEN);
