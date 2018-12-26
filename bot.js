@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 // playing
 client.on('ready', () => {                           
-client.user.setGame(`♥ Premium ℕova ♥ `,'https://www.twitch.tv/ℕ o v a Codes♥');
+client.user.setGame(`♥ BotEpic ♥ `,'https://www.twitch.tv/ℕ o v a Codes♥');
   });
 
 
