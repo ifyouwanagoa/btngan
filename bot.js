@@ -99,7 +99,7 @@ var prefix = "#";
        
 });
 
-lient.on("ready", async  => {
+client.on("ready", async  => {
 setInterval(function(){
 client.channels.find('id', '527476890512916504').setName("♥W");
 client.channels.find('id', '527476890512916504').setName("♥We");
