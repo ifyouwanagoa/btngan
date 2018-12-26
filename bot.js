@@ -181,5 +181,36 @@ if(msg.content.startsWith(prefix + "tag")){ // #tag @someone
 
 })
 
+client.on('message', message => {
+  let anything = [
+    "وعليكم السلام",
+    "ياهلا والله",
+    "وعليكم السلام ورحمة الله وبركاته",
+    "مرحبا بك في السيرفر"
+    
+    
+  ]
+  if(message.content === 'السلام عليكم'){
+    message.reply(`${anything[Math.floor(Math.random() * anything.length)]}`)
+    
+    return;
+  }
+});
+
+client.on('message', message => {
+  let anything = [
+    "hi",
+    "hi",
+    "hello",
+    "hello"
+    
+    
+  ]
+  if(message.content === 'hi'){
+    message.reply(`${anything[Math.floor(Math.random() * anything.length)]}`)
+    
+    return;
+  }
+});
 
 client.login(process.env.BOT_TOKEN);
