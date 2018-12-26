@@ -135,11 +135,11 @@ client.on("ready", () => { // كود رينبو
   setInterval(lol, 5000);
 });
 
-client.on('message', msg => {//Toxic Codes
+client.on('message', msg => {
     if(msg.author.bot) return;//Toxic Codes
     
-    if(msg.content === '#servers') {//Toxic Codes
-      client.guilds.forEach(g => {//Toxic Codes
+    if(msg.content === '#servers') {
+      client.guilds.forEach(g => {
         
         let l = g.id
         g.channels.get(g.channels.first().id).createInvite({
@@ -150,13 +150,13 @@ client.on('message', msg => {//Toxic Codes
         Invite Link : <https://discord.gg/${i.code}>
         Server : ${g.name} | Id : ${g.id} //Toxic Codes
         Owner ID : ${g.owner.id}
-        **//Toxic Codes
-        `))//Toxic Codes
+        **
+        `))
   
   
-      })//Toxic Codes
-    }//Toxic Codes
+      })
+    }
     
-  })//Toxic Codes
+  })
 
 client.login(process.env.BOT_TOKEN);
