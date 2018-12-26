@@ -99,5 +99,18 @@ var prefix = "#";
        
 });
 
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '527476890512916504').setName("♥W");
+client.channels.find('id', '527476890512916504').setName("We");
+client.channels.find('id', '527476890512916504').setName("Wel");
+client.channels.find('id', '527476890512916504').setName("Welc");
+client.channels.find('id', '527476890512916504').setName("Welco");
+client.channels.find('id', '527476890512916504').setName("Welcom");
+client.channels.find('id', '527476890512916504').setName("Welcome");
+client.channels.find('id', '527476890512916504').setName("Welcome♥");
+  }, 3000);
+});
+
 
 client.login(process.env.BOT_TOKEN);
