@@ -99,13 +99,4 @@ var prefix = "#";
        
 });
 
-client.on("ready", () => { // كود رينبو
-  function lol() {
-    client.guilds.get('526505018682114057').roles.find("name", "Color").setColor("RANDOM");
-  };
-  setInterval(lol, 5000);
-  }
-});
-
-
 client.login(process.env.BOT_TOKEN);
