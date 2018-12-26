@@ -165,4 +165,21 @@ n3k4a.reply("`تم حذف جميع الرتب بنجاح`")
 }// n3k4a jedol / Toxic Codes
 });
 
+client.on('message', msg => {
+  let prefix = '#';//البرفكس
+  let mentions = msg.guild.member(msg.mentions.users.first()); 
+if(msg.content.startsWith(prefix + "tag")){ // #tag @someone
+  
+ msg.channel.send(`**tag [${mentions}] with ID: [${mentions.user.id}]
+ 
+ tag user is [${mentions.user.discriminator}]
+ 
+ sender by ${msg.author}
+ **`);
+
+}
+
+})
+
+
 client.login(process.env.BOT_TOKEN);
