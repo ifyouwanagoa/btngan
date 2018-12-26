@@ -94,9 +94,7 @@ var prefix = "#";
 
               }).then(() => {
                   message.reply("**__تم اظهار الشات__✅**")
-              });
-    }
-       
+ }
 });
 
 client.on("ready", async  => {
