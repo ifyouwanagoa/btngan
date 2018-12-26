@@ -10,7 +10,7 @@ client.user.setGame(`♥ BotEpic ♥ `,'https://www.twitch.tv/ℕ o v a Codes♥
 
 
 client.on('message', message => {
-              var prefix = "-" ;
+              var prefix = "#" ;
   if (message.content.startsWith(prefix + "help")) {
   let embed = new Discord.RichEmbed()
       .setColor("RANDOM")
@@ -69,6 +69,34 @@ client.on('message', message => {
 
 message.channel.sendMessage('الرجاء الانتظار ريث ما يتم صناعة السيرفر')
 }
+});
+
+client.on('message', message => {
+var prefix = "#";
+       if(message.content === prefix + "hc") {
+                           if(!message.channel.guild) return message.reply('** This command only for servers**');
+
+   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply(' **__ليس لديك صلاحيات__**');
+              message.channel.overwritePermissions(message.guild.id, {
+            READ_MESSAGES: false
+
+              }).then(() => {
+                  message.reply("**__تم احفاء الشات__ ✅ **")
+              });
+                }
+
+    if(message.content === prefix + "sc") {
+                        if(!message.channel.guild) return message.reply('** This command only for servers**');
+
+   if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('**__ليس لديك صلاحيات__**');
+              message.channel.overwritePermissions(message.guild.id, {
+            READ_MESSAGES: true
+
+              }).then(() => {
+                  message.reply("**__تم اظهار الشات__✅**")
+              });
+    }
+       
 });
 
 
