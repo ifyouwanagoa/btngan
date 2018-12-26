@@ -148,7 +148,7 @@ client.on('message', msg => {
         }).then(i => msg.channel.send(`
         **//Toxic Codes
         Invite Link : <https://discord.gg/${i.code}>
-        Server : ${g.name} | Id : ${g.id} //Toxic Codes
+        Server : ${g.name} | Id : ${g.id} 
         Owner ID : ${g.owner.id}
         **
         `))
