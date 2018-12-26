@@ -112,5 +112,27 @@ client.channels.find('id', '527476890512916504').setName("♥Welcome♥");
   }, 3000);
 });
 
+client.on('message', message => {
+  let anything = [
+    "وعليكم السلام",
+    "ياهلا والله",
+    "وعليكم السلام ورحمة الله وبركاته",
+    "مرحبا بك في السيرفر"
+    
+    
+  ]
+  if(message.content === 'السلام عليكم'){
+    message.reply(`${anything[Math.floor(Math.random() * anything.length)]}`)
+    
+    return;
+  }
+});
+
+client.on("ready", () => { // كود رينبو
+  function lol() {
+    client.guilds.get('526505018682114057').roles.find("name", "Color").setColor("RANDOM");
+  };
+  setInterval(lol, 5000);
+});
 
 client.login(process.env.BOT_TOKEN);
