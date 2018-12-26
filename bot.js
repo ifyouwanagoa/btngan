@@ -20,7 +20,7 @@ client.on('message', message => {
 🖤(#dc ⟿⟿⟿ Delete all channels)🖤
 🖤(#dr ⟿⟿⟿⟿ Delete all roles)🖤
 🖤(#serooms ⟿⟿⟿⟿ Create rooms)🖤
-🖤(#seroles ⟿⟿⟿⟿ Create roles)🖤
+🖤(#tag @someone ⟿⟿⟿⟿ To see the tag)🖤
 🖤(#bc ⟿⟿⟿ Brodcast all member)🖤
 🖤(#servers ⟿⟿ To know the servers which the bot joined)🖤
 🖤(#report ⟿⟿⟿ Report a member)🖤
