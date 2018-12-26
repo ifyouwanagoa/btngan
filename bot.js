@@ -51,7 +51,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === "-serooms") {
+    if (message.content === "#serooms") {
          if (!message.member.hasPermission("MANAGE_CHANNELS")) return message.channel.send('**:x: You Dont Have Perms `MANAGE_CHANNELS`**');
        if(!message.guild.member(client.user).hasPermission("MANAGE_CHANNELS")) return message.reply("**:x: I Dont Have Perms `MOVE_MEMBERS`**");
 	    
