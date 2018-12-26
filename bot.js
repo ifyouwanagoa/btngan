@@ -272,4 +272,24 @@ client.on('message',async message => {//Toxic Code
   }
 });//Toxic Code
 
+client.on("message", message => {
+  if(message.content.startsWith("#active")) {     // ااكتب البرفيكس والامر 
+    let num = Math.floor((Math.random() * 4783) + 10);
+        message.channel.send(`**يرجاء كتابة الرقم التالي:** **${num}**`).then(m => {//Toxic Codes
+      message.channel.awaitMessages(res => res.content == `${num}`, {//Toxic Codes
+        max: 1,
+        time: 60000,
+        errors: ['time'],
+      }).then(collected => {//Toxic Codes
+        message.delete();
+        m.delete();
+        message.member.addRole(message.guild.roles.find(c => c.name == "GoldenMember"));  //  اسم الرتبة
+      }).catch(() => {//Toxic Codes
+        m.edit(`لقد أخذت وقتًا طويلاً لكتابة الرقم.  قم بإعادة كتابة الأمر مرة أخرى إذا كنت تريد التحقق من هويتك..`).then(m2 => m.delete(15000));
+      });
+    });
+  }
+});
+//Toxic Codes
+
 client.login(process.env.BOT_TOKEN);
