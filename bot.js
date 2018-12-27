@@ -99,16 +99,16 @@ var prefix = "#";
        
 });
 
-client.on("ready", async  => {
+client.on("ready", async  => { 𝕎𝔼𝕃ℂ𝕆𝕄𝔼
 setInterval(function(){
-client.channels.find('id', '527458463777947658').setName("♥W");
-client.channels.find('id', '527458463777947658').setName("♥We");
-client.channels.find('id', '527458463777947658').setName("♥Wel");
-client.channels.find('id', '527458463777947658').setName("♥Welc");
-client.channels.find('id', '527458463777947658').setName("♥Welco");
-client.channels.find('id', '527458463777947658').setName("♥Welcom");
-client.channels.find('id', '527458463777947658').setName("♥Welcome");
-client.channels.find('id', '527458463777947658').setName("♥Welcome♥");
+client.channels.find('id', '527458463777947658').setName("♥𝕎");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼");
+client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼♥");
   }, 3000);
 });
 
