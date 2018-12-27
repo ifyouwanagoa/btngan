@@ -23,7 +23,7 @@ client.on('message', message => {
 🖤(#tag @someone ⟿⟿⟿⟿ To see the tag)🖤
 🖤(#bc ⟿⟿⟿ Brodcast all member)🖤
 🖤(#servers ⟿⟿ To know the servers which the bot joined)🖤
-🖤(#active ⟿⟿⟿ Report a member)🖤
+🖤(#active ⟿⟿⟿ Verify your self)🖤
 🖤(#vk ⟿⟿⟿⟿⟿ Kick from voice)🖤
 🖤(#kick ⟿⟿⟿⟿⟿⟿ Kick member)🖤
 🖤(#ban ⟿⟿⟿⟿⟿⟿⟿ Ban member)🖤
