@@ -292,5 +292,10 @@ client.on("message", message => {
 });
 //Toxic Codes
 
+client.on('guildMemberAdd', (member) => {
+    var channel = member.guild.channels.find('name', 'chatting');
+channel.send(`@${member.user.tag} تم اعطاء العضو رتبت ممبر`)
+member.addRole(member.guild.roles.find('name', 'new'));
+});
 
 client.login(process.env.BOT_TOKEN);
