@@ -114,7 +114,7 @@ client.channels.find('id', '527458463777947658').setName("♥Welcome♥");
 
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('471121072591470604').roles.find("name", "Color").setColor("RANDOM");
+    client.guilds.get('471121072591470604').roles.find("name", "Rainbow").setColor("RANDOM");
 
   };
   setInterval(lol, 5000);
