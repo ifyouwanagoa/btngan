@@ -101,6 +101,7 @@ var prefix = "#";
 
 client.on("ready", async  => { 
 setInterval(function(){
+client.channels.find('id', '527458463777947658').setName("♥");
 client.channels.find('id', '527458463777947658').setName("♥𝕎");
 client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼");
 client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃");
