@@ -275,7 +275,7 @@ client.on("message", message => {
 //Toxic Codes
 
 client.on('guildMemberAdd', (member) => {
-    var channel = member.guild.channels.find('name', 'chatting');
+    var channel = member.guild.channels.find('name', '𝙒𝙀𝙇𝘾𝙊𝙈-الترحيب');
 channel.send(`@${member.user.tag} تم اعطاء العضو رتبت الرينبو`)
 member.addRole(member.guild.roles.find('name', 'new'));
 });
