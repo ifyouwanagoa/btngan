@@ -101,22 +101,22 @@ var prefix = "#";
 
 client.on("ready", async  => { 
 setInterval(function(){
-client.channels.find('id', '527458463777947658').setName("♥");
-client.channels.find('id', '527458463777947658').setName("♥𝕎");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼");
-client.channels.find('id', '527458463777947658').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼♥");
+client.channels.find('id', '528866463159812096').setName("♥");
+client.channels.find('id', '528866463159812096').setName("♥𝕎");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃ℂ");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃ℂ𝕆");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼");
+client.channels.find('id', '528866463159812096').setName("♥𝕎𝔼𝕃ℂ𝕆𝕄𝔼♥");
   }, 3000);
 });
 
 
 client.on("ready", () => { // كود رينبو
   function lol() {
-    client.guilds.get('471121072591470604').roles.find("name", "Rainbow").setColor("RANDOM");
+    client.guilds.get('434062859715084289').roles.find("name", "Rainbow").setColor("RANDOM");
 
   };
   setInterval(lol, 5000);
@@ -146,26 +146,6 @@ client.on('message', msg => {
     
   })
 
-client.on('message', n3k4a => {
-var prefix = "#";
-if(n3k4a.content.split(' ')[0] == prefix + 'dc') {  // delete all channels
-if (!n3k4a.channel.guild) return;
-if(!n3k4a.guild.member(n3k4a.author).hasPermission("MANAGE_CHANNELS")) return n3k4a.reply("**You Don't Have ` MANAGE_CHANNELS ` Permission**");
-if(!n3k4a.guild.member(client.user).hasPermission("MANAGE_CHANNELS")) return n3k4a.reply("**I Don't Have ` MANAGE_CHANNELS ` Permission**");
-n3k4a.guild.channels.forEach(m => {
-m.delete();
-});// n3k4a jedol / Toxic Codes
-}// n3k4a jedol / Toxic Codes
-if(n3k4a.content.split(' ')[0] == prefix + 'dr') { // delete all roles
-if (!n3k4a.channel.guild) return;
-if(!n3k4a.guild.member(n3k4a.author).hasPermission("MANAGE_ROLES_OR_PERMISSIONS")) return n3k4a.reply("**You Don't Have ` MANAGE_ROLES_OR_PERMISSIONS ` Permission**");
-if(!n3k4a.guild.member(client.user).hasPermission("MANAGE_ROLES_OR_PERMISSIONS")) return n3k4a.reply("**I Don't Have ` MANAGE_ROLES_OR_PERMISSIONS ` Permission**");
-n3k4a.guild.roles.forEach(m => {
-m.delete();
-});// n3k4a jedol / Toxic Codes
-n3k4a.reply("`تم حذف جميع الرتب بنجاح`")
-}// n3k4a jedol / Toxic Codes
-});
 
 client.on('message', msg => {
   let prefix = '#';//البرفكس
@@ -285,7 +265,7 @@ client.on("message", message => {
       }).then(collected => {//Toxic Codes
         message.delete();
         m.delete();
-        message.member.addRole(message.guild.roles.find(c => c.name == "GoldenMember"));  //  اسم الرتبة
+        message.member.addRole(message.guild.roles.find(c => c.name == "Rainbow"));  //  اسم الرتبة
       }).catch(() => {//Toxic Codes
         m.edit(`لقد أخذت وقتًا طويلاً لكتابة الرقم.  قم بإعادة كتابة الأمر مرة أخرى إذا كنت تريد التحقق من هويتك..`).then(m2 => m.delete(15000));
       });
@@ -296,7 +276,7 @@ client.on("message", message => {
 
 client.on('guildMemberAdd', (member) => {
     var channel = member.guild.channels.find('name', 'chatting');
-channel.send(`@${member.user.tag} تم اعطاء العضو رتبت ممبر`)
+channel.send(`@${member.user.tag} تم اعطاء العضو رتبت الرينبو`)
 member.addRole(member.guild.roles.find('name', 'new'));
 });
 
@@ -312,7 +292,6 @@ client.on('message', message => {
       message.channel.send(IzRo);
     });
 
-
 client.on('message', message => {
 var prefix = "#";
 var cats = ["http://palestine-kitchen.ps/wp-content/uploads/2017/12/%D9%86%D9%83%D8%AA-%D8%AF%D8%A8%D8%A7%D9%86%D8%A9.png","http://www.i7lm.com/wp-content/uploads/2017/04/136769797816.jpg","https://4.bp.blogspot.com/-p62zmDIDXmI/WKzqNt9smaI/AAAAAAAAC4Q/sW_bSIB8OaQhwOYFeplc3uzz8PBN7l3YACEw/s1600/13602501135.jpg","https://www.universemagic.com/images/2016/03/7938-2-or-1457539273.jpg","https://1.bp.blogspot.com/-yFk-FzHSyE8/WR9fmPcsCUI/AAAAAAAAE6c/AmvjLadOiLY9GiCqMLHgA121bY2RS_dCwCLcB/s1600/%25D9%2586%25D9%2583%25D8%25AA%2B%25D9%2585%25D8%25B6%25D8%25AD%25D9%2583%25D8%25A9%2B1.jpg","https://l7zaat.com/wp-content/uploads/2018/02/423.jpg","https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg","https://i.fatafeat.com/storage/attachments/15/image3_698123_large.jpg","http://www.shuuf.com/shof/uploads/2018/02/08/jpg/shof_97d686082bdb0a2.jpg"];
@@ -323,7 +302,6 @@ var cats = ["http://palestine-kitchen.ps/wp-content/uploads/2017/12/%D9%86%D9%83
 message.channel.sendEmbed(cat);
     }
 });
-
 
 
 client.login(process.env.BOT_TOKEN);
